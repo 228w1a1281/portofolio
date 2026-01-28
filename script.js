@@ -75,3 +75,26 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
 });
+// Contact form interaction
+document.addEventListener("DOMContentLoaded", () => {
+  const contactForm = document.getElementById("contactForm");
+  const formMessage = document.getElementById("formMessage");
+
+  if (contactForm) {
+    contactForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+
+      formMessage.textContent = `Thank you, ${name}! Your message has been sent successfully. I will contact you soon at ${email}.`;
+      formMessage.className = "success";
+
+      contactForm.reset();
+
+      setTimeout(() => {
+        formMessage.style.display = "none";
+      }, 5000);
+    });
+  }
+});
