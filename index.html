@@ -3,166 +3,156 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dasapalli Pravallika | Portfolio</title>
+  <title>Dasapalli Pravallika - Portfolio</title>
 
-  <!-- Icons & Fonts -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- ===== NAVBAR ===== -->
-<nav>
-  <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#education">Education</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#certifications">Certifications</a></li>
-    <li><a href="#publications">Publications</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
-
-<!-- ===== HERO ===== -->
-<header id="home">
-  <h1>Dasapalli Pravallika</h1>
-  <h2>Information Technology Student | AI • Web • GIS</h2>
-  <p>
-    <i class="fa-solid fa-phone"></i> +91 9676390541 |
-    <i class="fa-solid fa-envelope"></i> pravallikadasapalli@gmail.com
-  </p>
-  <a class="btn" href="resume.pdf" download>Download Resume</a>
+<header>
+  <div class="container">
+    <h1>Dasapalli Pravallika</h1>
+  </div>
 </header>
 
-<!-- ===== EDUCATION ===== -->
-<section id="education" class="reveal">
-  <h3>Education</h3>
-  <div class="card">
-    <h4>Velagapudi Ramakrishna Siddhartha Engineering College</h4>
-    <p>B.Tech – Information Technology (2022–2026)</p>
-    <p><strong>CGPA:</strong> 8.93 / 10</p>
-  </div>
-</section>
-
-<!-- ===== EXPERIENCE ===== -->
-<section id="experience" class="reveal">
-  <h3>Work Experience</h3>
-
-  <div class="card">
-    <h4>Research Intern – IEEE Chapter Kolkata</h4>
-    <p><em>Sep 2025 – Nov 2025 (Remote)</em></p>
+<nav>
+  <div class="container">
     <ul>
-      <li>Developed and fine-tuned Vision Language Models (VLMs).</li>
-      <li>Worked on multimodal reasoning and caption dataset creation.</li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#internships">Internships</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </div>
+</nav>
 
-  <div class="card">
-    <h4>Web Development Intern – Codegnan IT Solutions</h4>
-    <p><em>Apr 2025 – May 2025</em></p>
+<section id="about" class="section">
+  <div class="container about-content">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        Information Technology student with strong interest in Web Development,
+        Machine Learning, Computer Vision, and Geospatial AI. Passionate about
+        solving real-world problems through technology.
+      </p>
+
+      <p><i class="fas fa-phone"></i> +91 9676390541</p>
+      <p><i class="fas fa-envelope"></i> pravallikadasapalli@gmail.com</p>
+
+      <div class="social-links">
+        <a href="https://github.com/account" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/dasapalli-pravallika-3ab003254" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+
+      <a class="btn" href="https://drive.google.com/uc?export=download&id=1_3F74LrBOZKrr33Of4wgo0pBfnikjJsY">Download Resume</a>
+    </div>
+
+    <div class="about-image">
+      <img src="profile pic.jpg" alt="Pravallika">
+    </div>
+  </div>
+</section>
+
+<section id="education" class="section">
+  <div class="container">
+    <h2>Education</h2>
+
+    <div class="card">
+      <h3>B.Tech – Information Technology</h3>
+      <p>Velagapudi Ramakrishna Siddhartha Engineering College</p>
+      <p>2022 – 2026 | CGPA: 8.93 / 10</p>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <div class="container">
+    <h2>Technical Skills</h2>
+
+    <div class="grid">
+      <div class="card">Python, C, C++, Data Structures</div>
+      <div class="card">HTML, CSS, JavaScript, MySQL</div>
+      <div class="card">Git, GitHub, VS Code, Figma</div>
+      <div class="card">Windows, Linux</div>
+      <div class="card">English, Telugu, Hindi</div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="container">
+    <h2>Projects</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Realtime Weather Dashboard</h3>
+        <p>HTML, CSS, JavaScript, OpenWeather API, Chart.js</p>
+      </div>
+
+      <div class="card">
+        <h3>Satellite Object Segmentation with SAM</h3>
+        <p>OpenCV, GDAL, GeoPandas – achieved 85% segmentation accuracy</p>
+      </div>
+
+      <div class="card">
+        <h3>Smart Posture Guard</h3>
+        <p>KNN + COCO dataset, TensorFlow.js – achieved 98% accuracy</p>
+      </div>
+
+      <div class="card">
+        <h3>AI-Powered Coconut Tree Detection</h3>
+        <p>RCNN, U-Net, SAM for satellite-based agricultural monitoring</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="internships" class="section">
+  <div class="container">
+    <h2>Internships</h2>
+
     <ul>
-      <li>Built a real-time Weather Dashboard using HTML, CSS, JS.</li>
-      <li>Integrated OpenWeather API.</li>
+      <li>Research Intern – IEEE Chapter Kolkata (Vision-Language Models)</li>
+      <li>Web Development Intern – Codegnan IT Solutions</li>
     </ul>
   </div>
 </section>
 
-<!-- ===== SKILLS ===== -->
-<section id="skills" class="reveal">
-  <h3>Technical Skills</h3>
-  <div class="grid">
-    <div class="card">
-      <h4>Languages</h4>
-      <p>Python, C, C++, Data Structures (Basics)</p>
-    </div>
-    <div class="card">
-      <h4>Web & DB</h4>
-      <p>HTML, CSS, JavaScript, MySQL</p>
-    </div>
-    <div class="card">
-      <h4>Tools & OS</h4>
-      <p>Git, VS Code, Figma, Power BI, Windows, Linux</p>
-    </div>
-    <div class="card">
-      <h4>Soft Skills</h4>
-      <p>Time Management, Communication, Team Collaboration</p>
-    </div>
+<section id="certifications" class="section">
+  <div class="container">
+    <h2>Certifications</h2>
+
+    <ul>
+      <li>AWS Certified Cloud Practitioner</li>
+      <li>ServiceNow Certified Developer & Administrator</li>
+      <li>NPTEL – Joy of Computing using Python</li>
+      <li>HarvardX – Data Science with Python</li>
+    </ul>
   </div>
 </section>
 
-<!-- ===== PROJECTS ===== -->
-<section id="projects" class="reveal">
-  <h3>Projects</h3>
+<section id="contact" class="section">
+  <div class="container">
+    <h2>Contact Me</h2>
 
-  <div class="card">
-    <h4>Realtime Weather Dashboard</h4>
-    <p>HTML, CSS, JavaScript, OpenWeather API, Chart.js</p>
-  </div>
+    <form id="contactForm">
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button class="btn">Send</button>
+    </form>
 
-  <div class="card">
-    <h4>Satellite Object Segmentation using SAM</h4>
-    <p>OpenCV, GDAL, GeoPandas – Shapefile generation for GIS analysis.</p>
-  </div>
-
-  <div class="card">
-    <h4>Smart Posture Guard</h4>
-    <p>KNN + COCO dataset, 98% accuracy, real-time webcam detection.</p>
-  </div>
-
-  <div class="card">
-    <h4>AI-Powered Coconut Tree Detection & Segmentation</h4>
-    <p>RCNN, U-Net, SAM for satellite imagery analysis.</p>
-  </div>
-</section>
-
-<!-- ===== CERTIFICATIONS ===== -->
-<section id="certifications" class="reveal">
-  <h3>Certifications</h3>
-  <ul class="list">
-    <li>AWS Certified Cloud Practitioner</li>
-    <li>ServiceNow Certified Developer & Administrator</li>
-    <li>Joy of Computing using Python – NPTEL</li>
-    <li>Programming Essentials in Python & C – Cisco</li>
-    <li>DBMS & MySQL – Udemy</li>
-  </ul>
-</section>
-
-<!-- ===== PUBLICATIONS ===== -->
-<section id="publications" class="reveal">
-  <h3>Publications</h3>
-  <div class="card">
-    <h4>Smart Posture Guard</h4>
-    <p>Published in IEEE Xplore – 5th International Conference on Soft Computing for Security Applications</p>
-  </div>
-</section>
-
-<!-- ===== EXTRACURRICULAR ===== -->
-<section class="reveal">
-  <h3>Extracurricular</h3>
-  <ul class="list">
-    <li>Member of WiCyS – conducted quizzes & cybersecurity events</li>
-    <li>Participant in Smart India Hackathon (SIH)</li>
-  </ul>
-</section>
-
-<!-- ===== CONTACT ===== -->
-<section id="contact" class="reveal">
-  <h3>Contact</h3>
-  <p>Email: pravallikadasapalli@gmail.com</p>
-  <p>Location: Vijayawada, AP, India</p>
-
-  <div class="socials">
-    <a href="https://github.com/yourusername"><i class="fab fa-github"></i></a>
-    <a href="https://linkedin.com/in/dasapalli-pravallika-3ab003254"><i class="fab fa-linkedin"></i></a>
+    <p id="formMessage"></p>
   </div>
 </section>
 
 <footer>
-  <p>© 2026 Dasapalli Pravallika</p>
+  <p>© Dasapalli Pravallika</p>
 </footer>
 
 <script src="script.js"></script>
